@@ -24,6 +24,6 @@ Pod::Spec.new do |s|
   s.subspec 'AppExtension' do |ext|
     ext.source_files = 'SVProgressHUD/*.{h,m}'
     ext.resources = 'SVProgressHUD/SVProgressHUD.bundle'
-    ext.pod_target_xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => 'SV_APP_EXTENSIONS=1' }
+    ext.pod_target_xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => 'SV_APP_EXTENSIONS=0' }
   end
 end
