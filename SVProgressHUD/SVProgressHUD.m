@@ -403,6 +403,7 @@ static const CGFloat SVProgressHUDLabelSpacing = 8.0f;
 
         _backgroundColor = [UIColor whiteColor];
         _foregroundColor = [UIColor blackColor];
+        _foregroundImageColor = [UIColor blackColor];
         _backgroundLayerColor = [UIColor colorWithWhite:0 alpha:0.4];
         
         // Set default values
