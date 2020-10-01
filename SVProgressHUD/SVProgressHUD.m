@@ -136,7 +136,7 @@ static const CGFloat SVProgressHUDLabelSpacing = 8.0f;
     [self setDefaultStyle:SVProgressHUDStyleCustom];
 }
 
-+ (void)setForegroundImageColor:(UIColor *)color {
++ (void)setForegroundImageColor:(UIColor*)color {
     [self sharedView].foregroundImageColor = color;
     [self setDefaultStyle:SVProgressHUDStyleCustom];
 }
@@ -1491,7 +1491,7 @@ static const CGFloat SVProgressHUDLabelSpacing = 8.0f;
     if (!_isInitializing) _foregroundColor = color;
 }
 
-- (void)setForegroundImageColor:(UIColor *)color {
+- (void)setForegroundImageColor:(UIColor*)color {
     if (!_isInitializing) _foregroundImageColor = color;
 }
 
